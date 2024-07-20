@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #f0f0f0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-container .dd {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-container .ss {
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.input-container .ss:hover {
+  background-color: #0056b3;
+}
+
+.output-container {
+  display: none;
+  margin-top: 20px;
+}
+
+.forecast-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.forecast-day {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-day p {
+  margin: 5px 0;
+}
+
+.theme-toggle {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.dark-theme .forecast-day {
+  background-color: #444;
+  border-color: #666;
+  color: #f0f0f0;
+}
+
+.dark-theme .input-container .dd {
+  background-color: #444;
+  border-color: #666;
+  color: #f0f0f0;
+}
+
+.dark-theme .input-container .ss {
+  background-color: #0056b3;
+}
+
+.dark-theme .input-container .ss:hover {
+  background-color: #003f7f;
+}

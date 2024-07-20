@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Forecast App</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container aa">
+    <h1 class="bb">Weather Forecast</h1>
+    <div class="input-container cc">
+      <input type="text" id="cityInput" placeholder="Enter city name" class="dd">
+      <button id="fetchWeatherBtn" class="ss">Get Weather</button>
+      <button id="currentCityBtn" class="pp">Get Current Location Weather</button>
+    </div>
+    <div class="output-container">
+      <h2 id="cityName" class="bb"></h2>
+      <div id="forecastDetails" class="forecast-details"></div>
+    </div>
+    <label class="theme-toggle">
+      <input type="checkbox" id="themeToggleCheckbox" class="ll"> Dark Mode
+    </label>
+  </div>
+  <canvas id="weatherChart" class="jj"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
